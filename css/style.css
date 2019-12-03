@@ -16,7 +16,7 @@ html, body, .page {
 }
 
 h3 {
-  font-size: 45px;
+  font-size: 2.8vw;
   text-transform: uppercase;
 }
 
@@ -31,7 +31,7 @@ p {
 
 @media screen and (max-width: 992px) {
   body {
-    background-color: blue;
+    background-color: darkblue;
   }
 
   #mobile-tablet {
@@ -354,7 +354,6 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
     position: relative;
     width: 25vw;
     height: auto;
-    margin-top: -3.8vh;
   }
 
   .mockup {
@@ -472,7 +471,7 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
     height: auto;
     position: relative;
     margin-left: 5vw;
-    margin-top: -1vh;
+    margin-top: 1vh;
   }
 
   .mockup-computer {
@@ -616,20 +615,34 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
     align-self: flex-end;
   }
 
-  .page-content-om-mig {}
+  #h3-p5-overskrift {
+    font-size: 2.7vw;
+    color: black;
+  }
 
-  .om-mig-text-section {}
+  .h4-p5 {
+    color: black;
+  }
+
+  .om-mig-text-section p {
+    color: black;
+  }
+
+  .mail {
+    font-size: 1.5vw;
+    color: #0061a7;
+  }
 
   .om-mig-button {
-    -moz-box-shadow: -4px 4px 0px 0px #54a3f7;
-    -webkit-box-shadow: -4px 4px 0px 0px #54a3f7;
-    box-shadow: -4px 4px 0px 0px #54a3f7;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
-    background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-    background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-    background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-    background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    -moz-box-shadow: -4px 4px 0px 0px #007dc1;
+    -webkit-box-shadow: -4px 4px 0px 0px #007dc1;
+    box-shadow: -4px 4px 0px 0px #007dc1;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #darkblue));
+    background: -moz-linear-gradient(top, darkblue 5%, #0061a7 100%);
+    background: -webkit-linear-gradient(top, darkblue 5%, #0061a7 100%);
+    background: -o-linear-gradient(top, darkblue 5%, #0061a7 100%);
+    background: -ms-linear-gradient(top, darkblue 5%, #0061a7 100%);
+    background: linear-gradient(to bottom, darkblue 5%, #0061a7 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
     background-color: #007dc1;
     color: #ffffff;
@@ -637,11 +650,11 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
 
   .om-mig-button:hover {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
-    background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-    background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-    background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-    background: -ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background: -moz-linear-gradient(top, #0061a7 5%, darkblue 100%);
+    background: -webkit-linear-gradient(top, #0061a7 5%, darkblue 100%);
+    background: -o-linear-gradient(top, #0061a7 5%, darkblue 100%);
+    background: -ms-linear-gradient(top, #0061a7 5%, darkblue 100%);
+    background: linear-gradient(to bottom, #0061a7 5%, darkblue 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1', GradientType=0);
     background-color: #0061a7;
   }
