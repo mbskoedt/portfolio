@@ -48,7 +48,7 @@ p {
     margin: 2rem;
   }
 
-  #t1 {
+  #Forside {
     display: none;
   }
 }
@@ -96,10 +96,10 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
     background: orange;
   }
 
-  #t2:target #p2,
-  #t3:target #p3,
-  #t4:target #p4,
-  #t5:target #p5 {
+  #myFSTVL:target #p2,
+  #Cleansneaks:target #p3,
+  #Madpakkespillet:target #p4,
+  #Om-Mig:target #p5 {
     transform: translateX(-185%);
     -webkit-transform: translateX(-185%);
     -moz-transform: translateX(-185%);
@@ -107,17 +107,17 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
     transition-delay: .4s !important;
   }
 
-  #t2:target #p1,
-  #t3:target #p1,
-  #t4:target #p1,
-  #t5:target #p1 {
+  #myFSTVL:target #p1,
+  #Cleansneaks:target #p1,
+  #Madpakkespillet:target #p1,
+  #Om-Mig:target #p1 {
     background: black;
   }
 
-  #t2:target #p1 .icon,
-  #t3:target #p1 .icon,
-  #t4:target #p1 .icon,
-  #t5:target #p1 .icon {
+  #myFSTVL:target #p1 .icon,
+  #Cleansneaks:target #p1 .icon,
+  #Madpakkespillet:target #p1 .icon,
+  #Om-Mig:target #p1 .icon {
     -webkit-filter: blur(3px);
   }
 
@@ -135,10 +135,10 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
     line-height: 2;
   }
 
-  #t2:target ul .icon,
-  #t3:target ul .icon,
-  #t4:target ul .icon,
-  #t5:target ul .icon {
+  #myFSTVL:target ul .icon,
+  #Cleansneaks:target ul .icon,
+  #Madpakkespillet:target ul .icon,
+  #Om-Mig:target ul .icon {
     transform: scale(.6);
     -webkit-transform: scale(.6);
     -moz-transform: scale(.6);
@@ -146,10 +146,10 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
     transition-delay: .25s;
   }
 
-  #t2:target #dos,
-  #t3:target #tres,
-  #t4:target #cuatro,
-  #t5:target #cinco {
+  #myFSTVL:target #dos,
+  #Cleansneaks:target #tres,
+  #Madpakkespillet:target #cuatro,
+  #Om-Mig:target #cinco {
     transform: scale(1.2) !important;
     -webkit-transform: scale(1.2) !important;
     -moz-transform: scale(1.2) !important;
@@ -242,10 +242,10 @@ Licence (CC BY-NC-SA 4.0) http://creativecommons.org/licenses/by-nc-sa/4.0/
     transform: translateX(10%) !important;
   }
 
-  #t2:target .page#p2 .icon,
-  #t3:target .page#p3 .icon,
-  #t4:target .page#p4 .icon,
-  #t5:target .page#p5 .icon {
+  #myFSTVL:target .page#p2 .icon,
+  #Cleansneaks:target .page#p3 .icon,
+  #Madpakkespillet:target .page#p4 .icon,
+  #Om-Mig:target .page#p5 .icon {
     transform: translateX(0) !important;
     -webkit-transform: translateX(0) !important;
     -moz-transform: translateX(0) !important;
